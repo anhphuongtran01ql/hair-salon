@@ -82,7 +82,13 @@ body {
 }
 
 .container {
-    padding: 5vw;
+    padding: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 5vw;
+    }
 }
 
 .m-1800 {
