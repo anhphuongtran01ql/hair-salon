@@ -5,6 +5,7 @@
     --dark-color: #333;
 
     --red-color: #971420;
+    --text-bold: #FF0000;
 }
 
 html {
@@ -67,6 +68,7 @@ body {
     padding: 0 20px;
     font-size: 16px;
     color: #fff;
+    line-height: 2;
     background-color: var(--background-color);
     font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, "メイリオ", "Osaka", "MS PGothic", "ＭＳ Ｐゴシック", sans-serif;
 }
@@ -79,10 +81,15 @@ body {
 }
 
 .container {
-    padding: 20px;
+    padding: 5vw;
 }
 
 .m-1800 {
     max-width: 1800px;
+    margin: 0 auto;
+}
+
+.m-1600 {
+    max-width: 1600px;
     margin: 0 auto;
 }

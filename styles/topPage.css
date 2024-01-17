@@ -1,0 +1,91 @@
+main.top-page {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.para-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main h2 {
+    background-color: var(--red-color);
+    color: #fff;
+    font-size: 20px;
+    padding: 7px 32px;
+    border-radius: 30px;
+}
+
+main h3 {
+    font-size: 18px;
+    padding: 7px 32px;
+    background: var(--gray-color);
+    border-radius: 30px;
+}
+
+main a {
+    text-decoration: underline;
+}
+
+main p {
+    margin: 0 32px;
+}
+
+main p strong {
+    color: var(--text-bold);
+}
+
+#notice .notice-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.notice-list td.title {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notice-list td.title span.tag {
+    width: calc(50% - 13px);
+    text-align: center;
+    vertical-align: middle;
+    font-size: 13px;
+    line-height: 1.8;
+    border-radius: 2px;
+    margin-right: 13px;
+}
+
+span.tag.tag-1 {
+    background-color: #999;
+}
+
+span.tag.tag-2 {
+    background-color: var(--red-color);
+}
+
+span.tag.tag-3 {
+    background-color: #006ACD;
+}
+
+@media screen and (max-width: 768px) {
+    .notice-list td.title {
+        width: 100px;
+    }
+
+    span.tag {
+        display: none;
+    }
+}
+
+.constant-simple-slider img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    margin: auto;
+}
