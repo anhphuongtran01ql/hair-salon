@@ -1,0 +1,91 @@
+#menu-icon {
+    position: fixed;
+    z-index: 100;
+    cursor: pointer;
+    right: 20px;
+    top: 10px;
+    padding: 15px;
+    width: 50px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: scale(1.5);
+}
+
+#menu-icon span {
+    display: block;
+    transition: 0.4s;
+    border-top: 1.5px solid #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#menu-icon.toggle span:nth-of-type(1),
+#menu-icon.toggle span:nth-of-type(3) {
+    transform-origin: center center;
+    width: 20px
+}
+
+#menu-icon.toggle span:nth-of-type(1) {
+    transform: rotate(45deg) translate(4.8px, 5.5px);
+}
+
+#menu-icon.toggle span:nth-of-type(2) {
+    display: none;
+}
+
+#menu-icon.toggle span:nth-of-type(3) {
+    transform: rotate(-45deg) translate(4.8px, -5.5px);
+}
+
+#navbar {
+    position: fixed;
+    overflow: auto;
+    z-index: 99;
+    left: 0px;
+    top: 0px;
+    width: 70%;
+    height: 100%;
+    padding: 100px 20px 20px;
+    background: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    color: #fff;
+    display: none;
+}
+
+#navbar {
+    animation-name: navbarOut;
+    animation-duration: 1s;
+}
+
+@keyframes navbarOut {
+    0% {
+        left: -70%;
+        top: 0px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+#navbar.toggle {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    #navbar {
+        width: 100%;
+    }
+}
+
+#navbar ul {
+    list-style: none;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+}
