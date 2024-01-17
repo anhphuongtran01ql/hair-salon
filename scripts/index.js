@@ -10,8 +10,6 @@ $(".constant-simple-slider").slick({
   pauseOnHover: false,
 });
 
-$("#btn-to-top").hide();
-
 $(window).scroll(function () {
   if ($(this).scrollTop() > 100) {
     $("#btn-to-top").fadeIn();

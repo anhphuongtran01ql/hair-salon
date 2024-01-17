@@ -112,6 +112,10 @@ body {
     z-index: 98;
 }
 
+#btn-to-top.btn-to-top {
+    display: none;
+}
+
 #btn-to-top i {
     padding: 20px;
     background: rgba(0, 0, 0, 0.2);
