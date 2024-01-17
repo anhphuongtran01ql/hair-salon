@@ -41,6 +41,7 @@ button {
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 img {
@@ -92,4 +93,21 @@ body {
 .m-1600 {
     max-width: 1600px;
     margin: 0 auto;
+}
+
+#btn-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 99;
+}
+
+#btn-to-top i {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
 }

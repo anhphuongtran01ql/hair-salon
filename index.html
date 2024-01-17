@@ -14,10 +14,28 @@
       type="text/css"
       href="./lib/slick-1.8.1/slick/slick.css"
     />
+    <link
+      rel="stylesheet"
+      href="./lib/fontawesome-free-6.5.1-web/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./lib/fontawesome-free-6.5.1-web/css/solid.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./lib/fontawesome-free-6.5.1-web/css/regular.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./lib/fontawesome-free-6.5.1-web/css/brands.min.css"
+    />
 
     <link rel="stylesheet" href="./styles/index.css" />
     <link rel="stylesheet" href="./styles/topPage.css" />
     <link rel="stylesheet" href="./styles/topBanner.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/menu.css" />
 
     <script src="./lib/aos-master/dist/aos.js"></script>
     <script src="./lib/w3.js"></script>
@@ -30,6 +48,7 @@
 
   <body>
     <header>
+      <div id="menu" w3-include-html="./html/menu.html"></div>
       <div id="top-banner" class="m-1800">
         <div class="item-logo logo-transition">
           <h1 class="item-logo-wrapper">
@@ -94,10 +113,12 @@
         <h2>テンプレートのご利用前に必ずお読み下さい</h2>
         <h3>利用規約のご案内</h3>
         <p>
-          このテンプレートは、<a>Template Party</a>
+          このテンプレートは、<a href="#">Template Party</a>
           にて無料配布している『ヘアサロン・美容室向け
           無料ホームページテンプレート
-          tp_hairsalon1』です。必ずダウンロード先のサイトの<a>利用規約</a>をご一読の上でご利用下さい。
+          tp_hairsalon1』です。必ずダウンロード先のサイトの<a href="#"
+            >利用規約</a
+          >をご一読の上でご利用下さい。
         </p>
         <p>
           <strong>
@@ -110,53 +131,55 @@
         <p>
           <strong> 下部の著作を外したい場合は </strong>
           <br />
-          <a>Template-Party</a
-          >の<a>ライセンス契約</a>を行う事でHP下部の著作を外す事ができます。
+          <a href="#">Template-Party</a>の<a href="#">ライセンス契約</a
+          >を行う事でHP下部の著作を外す事ができます。
         </p>
         <h3>当テンプレートの詳しい使い方は</h3>
-        <p><a>こちらをご覧下さい。</a></p>
+        <p><a href="#">こちらをご覧下さい。</a></p>
       </section>
 
       <section id="notice" class="para-group">
         <h2>お知らせ</h2>
         <table class="notice-list">
-          <tr>
-            <td class="title">
-              2023/12/04<span class="tag tag-1">アイコン</span>
-            </td>
-            <td class="description">
-              ヘアサロン・美容室向け 無料ホームページテンプレート
-              tp_hairsalon1公開。
-            </td>
-          </tr>
-          <tr>
-            <td class="title">
-              20XX/00/00<span class="tag tag-2">アイコン１</span>
-            </td>
-            <td class="description">
-              サンプルテキスト。サンプルテキスト。サンプルテキスト。
-            </td>
-          </tr>
-          <tr>
-            <td class="title">
-              20XX/00/00<span class="tag tag-3">アイコン２</span>
-            </td>
-            <td class="description">
-              サンプルテキスト。サンプルテキスト。サンプルテキスト。
-            </td>
-          </tr>
-          <tr>
-            <td class="title">20XX/00/00</td>
-            <td class="description">
-              サンプルテキスト。サンプルテキスト。サンプルテキスト。
-            </td>
-          </tr>
-          <tr>
-            <td class="title">20XX/00/00</td>
-            <td class="description">
-              サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。
-            </td>
-          </tr>
+          <tbody>
+            <tr>
+              <td class="title">
+                2023/12/04<span class="tag tag-1">アイコン</span>
+              </td>
+              <td class="description">
+                ヘアサロン・美容室向け 無料ホームページテンプレート
+                tp_hairsalon1公開。
+              </td>
+            </tr>
+            <tr>
+              <td class="title">
+                20XX/00/00<span class="tag tag-2">アイコン１</span>
+              </td>
+              <td class="description">
+                サンプルテキスト。サンプルテキスト。サンプルテキスト。
+              </td>
+            </tr>
+            <tr>
+              <td class="title">
+                20XX/00/00<span class="tag tag-3">アイコン２</span>
+              </td>
+              <td class="description">
+                サンプルテキスト。サンプルテキスト。サンプルテキスト。
+              </td>
+            </tr>
+            <tr>
+              <td class="title">20XX/00/00</td>
+              <td class="description">
+                サンプルテキスト。サンプルテキスト。サンプルテキスト。
+              </td>
+            </tr>
+            <tr>
+              <td class="title">20XX/00/00</td>
+              <td class="description">
+                サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。
+              </td>
+            </tr>
+          </tbody>
         </table>
       </section>
     </main>
@@ -169,7 +192,10 @@
           "infinite": true, 
           "arrows":false, 
           "autoplay":true, 
-          "autoplaySpeed":0 
+          "autoplaySpeed":0,
+          "responsive":[
+            {"breakpoint": 768, "settings":{"slidesToShow":2 }}
+          ]
         }'
       >
         <div>
@@ -198,6 +224,12 @@
         </div>
       </div>
     </section>
+
+    <footer
+      id="footer"
+      class="m-1800"
+      w3-include-html="./html/footer.html"
+    ></footer>
   </body>
   <script src="./scripts/index.js"></script>
   <script>
