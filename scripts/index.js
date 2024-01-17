@@ -1,5 +1,6 @@
 $("body").on("click", "#menu-icon", function () {
   $("#menu-icon").toggleClass("toggle");
+  $("#navbar").toggleClass("toggle");
 });
 
 $(".constant-simple-slider").slick({
