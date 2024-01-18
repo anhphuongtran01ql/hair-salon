@@ -1,4 +1,4 @@
-main.plan-container {
+.plan-container {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -14,7 +14,7 @@ main.plan-container {
 }
 
 @media screen and (max-width: 768px) {
-    main.plan-container {
+    .plan-container {
         display: flex;
         flex-direction: column;
     }
