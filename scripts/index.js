@@ -3,13 +3,6 @@ $("body").on("click", "#menu-icon", function () {
   $("#navbar").toggleClass("toggle");
 });
 
-$(".constant-simple-slider").slick({
-  cssEase: "linear",
-  speed: 8000,
-  autoPlay: false,
-  pauseOnHover: false,
-});
-
 $(window).scroll(function () {
   if ($(this).scrollTop() > 100) {
     $("#btn-to-top").fadeIn();
