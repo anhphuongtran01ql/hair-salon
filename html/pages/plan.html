@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stylish</title>
+
+    <link rel="shortcut icon" href="#" />
+
+    <link rel="stylesheet" href="/lib/aos-master/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="/lib/fontawesome-free-6.5.1-web/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/lib/fontawesome-free-6.5.1-web/css/solid.min.css"
+    />
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="/styles/footer.css" />
+    <link rel="stylesheet" href="/styles/menu.css" />
+    <link rel="stylesheet" href="/styles/plan.css" />
+    <link rel="stylesheet" href="/styles/pageBanner.css" />
+
+    <script src="/lib/aos-master/dist/aos.js"></script>
+    <script src="/lib/w3.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  </head>
+  <body>
+    <header class="m-1800">
+      <div id="menu" w3-include-html="/html/menu.html"></div>
+      <h1 id="logo">
+        <img width="150px" src="/images/logo.png" alt="hair-salon" />
+      </h1>
+
+      <h2 id="plan-banner" class="banner">
+        <span>plans & pricing<span>プランと価格</span></span>
+      </h2>
+    </header>
+    <main class="container m-1600 plan-container">
+      <section id="plan-content">
+        <h3>ヘアカット</h3>
+
+        <dl>
+          <dt>子供</dt>
+          <dd>3,000円</dd>
+          <dt>中学生以上</dt>
+          <dd>5,000円</dd>
+          <dt>65歳以上</dt>
+          <dd>4,000円</dd>
+        </dl>
+
+        <h3>カラーリング</h3>
+        <dl>
+          <dt>フルカラー</dt>
+          <dd>8,000円</dd>
+          <dt>ハイライト</dt>
+          <dd>10,000円</dd>
+        </dl>
+
+        <h3>パーマ</h3>
+        <dl>
+          <dt>スタンダードパーマ</dt>
+          <dd>9,000円</dd>
+          <dt>デジタルパーマ</dt>
+          <dd>12,000円</dd>
+        </dl>
+
+        <h3>トリートメント</h3>
+        <dl>
+          <dt>ベーシックトリートメント</dt>
+          <dd>6,000円</dd>
+          <dt>プレミアムトリートメント</dt>
+          <dd>8,000円</dd>
+        </dl>
+
+        <h3>ブライダルサービス</h3>
+        <p>
+          ヘアセットとメイクアップ、トライアルセッション付き…30,000円（※事前予約）
+        </p>
+      </section>
+
+      <div class="menu-content">
+        <div class="menu-group">
+          <h3>見出し</h3>
+          <nav>
+            <ul class="submenu">
+              <li>
+                <a href="/index.html">
+                  <i class="fa-solid fa-caret-right"></i>サブメニュー
+                </a>
+              </li>
+              <li>
+                <a href="/index.html">
+                  <i class="fa-solid fa-caret-right"></i>サブメニュー
+                </a>
+              </li>
+              <li>
+                <a href="/index.html">
+                  <i class="fa-solid fa-caret-right"></i>サブメニュー
+                </a>
+              </li>
+              <li>
+                <a href="/index.html">
+                  <i class="fa-solid fa-caret-right"></i>サブメニュー
+                </a>
+              </li>
+              <li>
+                <a href="/index.html">
+                  <i class="fa-solid fa-caret-right"></i>サブメニュー
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div>
+          <h3>見出し</h3>
+          <nav>
+            <ul class="submenu">
+              <li>
+                <a href="/index.html">
+                  <i class="fa-solid fa-caret-right"></i>サブメニュー
+                </a>
+              </li>
+              <li>
+                <a href="/index.html">
+                  <i class="fa-solid fa-caret-right"></i>サブメニュー
+                </a>
+              </li>
+              <li>
+                <a href="/index.html">
+                  <i class="fa-solid fa-caret-right"></i>サブメニュー
+                </a>
+              </li>
+              <li>
+                <a href="/index.html">
+                  <i class="fa-solid fa-caret-right"></i>サブメニュー
+                </a>
+              </li>
+              <li>
+                <a href="/index.html">
+                  <i class="fa-solid fa-caret-right"></i>サブメニュー
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </main>
+    <footer
+      id="footer"
+      class="m-1800"
+      w3-include-html="/html/footer.html"
+    ></footer>
+  </body>
+  <script src="/scripts/index.js"></script>
+  <script>
+    AOS.init();
+    w3.includeHTML();
+  </script>
+</html>

@@ -13,7 +13,7 @@
     gap: 32px;
 }
 
-@media screen and (max-width: 546px) {
+@media screen and (max-width: 576px) {
     #stylish-introduction .list-item {
         display: flex;
         flex-direction: column;
@@ -39,7 +39,7 @@
     font-weight: bold;
 }
 
-@media screen and (max-width: 546px) {
+@media screen and (max-width: 576px) {
     #stylish-introduction .info-group h4 {
         font-size: 16px;
     }
@@ -57,7 +57,7 @@
     }
 }
 
-@media screen and (max-width: 547px) {
+@media screen and (max-width: 576px) {
     #stylish-introduction .info-group p {
         font-size: 13px;
         line-height: 1.5;
