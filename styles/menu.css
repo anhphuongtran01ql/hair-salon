@@ -88,3 +88,7 @@
     display: block;
     padding: 10px;
 }
+
+#navbar ul li:hover {
+    font-weight: bold;
+}
