@@ -10,14 +10,6 @@
     gap: 20px;
 }
 
-main h2 {
-    background-color: var(--red-color);
-    color: #fff;
-    font-size: 20px;
-    padding: 7px 32px;
-    border-radius: 30px;
-}
-
 #template h3 {
     margin: 0;
 }
@@ -31,7 +23,7 @@ main p {
 }
 
 main p strong {
-    color: var(--text-bold);
+    color: var(--text-bold-color);
 }
 
 #notice .notice-list {

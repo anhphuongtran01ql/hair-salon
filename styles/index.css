@@ -5,7 +5,7 @@
     --dark-color: #333;
 
     --red-color: #971420;
-    --text-bold: #FF0000;
+    --text-bold-color: #FF0000;
 }
 
 html {
@@ -124,6 +124,14 @@ body {
     padding: 20px;
     background: rgba(0, 0, 0, 0.2);
     border-radius: 50%;
+}
+
+main h2 {
+    background-color: var(--red-color);
+    color: #fff;
+    font-size: 20px;
+    padding: 7px 32px;
+    border-radius: 30px;
 }
 
 main h3 {
