@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+
+    <link rel="shortcut icon" href="#" />
+
+    <link rel="stylesheet" href="../../lib/aos-master/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="../../lib/fontawesome-free-6.5.1-web/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../lib/fontawesome-free-6.5.1-web/css/solid.min.css"
+    />
+    <link rel="stylesheet" href="../../styles/index.css" />
+    <link rel="stylesheet" href="../../styles/footer.css" />
+    <link rel="stylesheet" href="../../styles/menu.css" />
+    <link rel="stylesheet" href="../../styles/contact.css" />
+    <link rel="stylesheet" href="../../styles/pageBanner.css" />
+
+    <script src="../../lib/aos-master/dist/aos.js"></script>
+    <script src="../../lib/w3.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  </head>
+  <body>
+    <header class="m-1800">
+      <div id="menu" w3-include-html="../../html/menu.html"></div>
+      <h1 id="logo">
+        <img width="150px" src="../../images/logo.png" alt="hair-salon" />
+      </h1>
+    </header>
+    <main>
+      <div class="container m-1600">
+        <section id="contact">
+          <h2>お問い合わせ</h2>
+          <p>
+            当ページと同じ３項目のお問い合わせフォーム（自動フォーム試用版）を簡単に使えるようにセットしています。<br />
+            <span class="color"
+              >※当ページ（contact.html）はフォームの見本ページです。実際の自動フォームには使いませんのでご注意下さい。</span
+            >
+          </p>
+
+          <form>
+            <table class="table-contact">
+              <tbody>
+                <tr>
+                  <th>お名前※</th>
+                  <td>
+                    <input type="text" name="お名前" size="30" />
+                  </td>
+                </tr>
+                <tr>
+                  <th>メールアドレス※</th>
+                  <td>
+                    <input type="text" name="メールアドレス" size="30" />
+                  </td>
+                </tr>
+                <tr>
+                  <th>お問い合わせ詳細※</th>
+                  <td>
+                    <textarea name="お問い合わせ詳細" rows="10"></textarea>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <button type="submit">内容を確認する</button>
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer w3-include-html="../../html/footer.html"></footer>
+  </body>
+  <script src="../../scripts/index.js"></script>
+  <script>
+    AOS.init();
+    w3.includeHTML();
+  </script>
+</html>

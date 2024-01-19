@@ -1,0 +1,87 @@
+#contact p {
+    margin: 7px 32px;
+}
+
+#contact p span.color {
+    color: var(--text-bold-color);
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#contact .table-contact {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#contact .table-contact tr {
+    border-bottom: 1px solid #ccc;
+}
+
+#contact .table-contact tr:first-child {
+    border-top: 1px solid #ccc;
+}
+
+#contact .table-contact th {
+    width: 300px;
+    padding: 10px;
+}
+
+#contact .table-contact td {
+    width: calc(100% - 300px);
+    padding: 15px 0;
+    height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+    #contact .table-contact th {
+        width: 200px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #contact .table-contact td {
+        width: calc(100% - 200px);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+#contact .table-contact td:has(textarea) {
+    padding: 18px 60px 18px 0;
+}
+
+#contact .table-contact td input {
+    width: 50%;
+}
+
+#contact .table-contact td textarea {
+    width: 100%;
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+
+    #contact .table-contact td:has(textarea) {
+        padding: 13px 0 13px 0;
+    }
+
+    #contact .table-contact td input {
+        width: calc(100% - 20px);
+
+    }
+
+    #contact .table-contact td textarea {
+        width: calc(100% - 20px);
+    }
+}
+
+#contact button {
+    width: fit-content;
+    padding: 0 5px;
+}
