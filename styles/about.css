@@ -1,0 +1,76 @@
+.about-container {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#about h3 {
+    background-color: unset;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+    #about h3 {
+        padding: 7px 0;
+    }
+}
+
+#about p {
+    font-size: 13px;
+    padding-left: 55px;
+}
+
+@media screen and (max-width: 768px) {
+    #about p {
+        padding-left: 23px;
+    }
+}
+
+#about .list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#about .list-item .item {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    #about .list-item .item {
+        flex-direction: column;
+    }
+
+}
+
+#about .item .flex-item {
+    flex: 1;
+}
+
+#about .item:has(.image-left) {
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 768px) {
+    #about .item:has(.image-left) {
+        flex-direction: column;
+    }
+}
+
+#about .text-group {
+    padding: 20px 0;
+}
+
+#about .text-group:has(~.image-right) p {
+    padding-right: 32px;
+}
+
+@media screen and (max-width: 768px) {
+    #about .text-group:has(~.image-right) p {
+        padding-right: 0;
+    }
+}
+
+#about .flex-item img {
+    border-radius: 35px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+
+    <link rel="shortcut icon" href="#" />
+
+    <link rel="stylesheet" href="../../lib/aos-master/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="../../lib/fontawesome-free-6.5.1-web/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../lib/fontawesome-free-6.5.1-web/css/solid.min.css"
+    />
+    <link rel="stylesheet" href="../../styles/index.css" />
+    <link rel="stylesheet" href="../../styles/footer.css" />
+    <link rel="stylesheet" href="../../styles/menu.css" />
+    <link rel="stylesheet" href="../../styles/about.css" />
+    <link rel="stylesheet" href="../../styles/pageBanner.css" />
+
+    <script src="../../lib/aos-master/dist/aos.js"></script>
+    <script src="../../lib/w3.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  </head>
+  <body>
+    <header class="m-1800">
+      <div id="menu" w3-include-html="../../html/menu.html"></div>
+      <h1 id="logo">
+        <img width="150px" src="../../images/logo.png" alt="hair-salon" />
+      </h1>
+
+      <h2 id="about-banner" class="banner">
+        <span>about our salon<span>当サロンについて</span></span>
+      </h2>
+    </header>
+    <main>
+      <div class="container m-1600 about-container">
+        <section id="about">
+          <div class="list-item" data-aos="zoom-out" data-aos-duration="1500">
+            <div class="item">
+              <div class="text-group flex-item">
+                <h3>サンプル見出し</h3>
+                <p>
+                  ここに挨拶文を入れます。サンプルテキスト。サンプルテキスト。サンプルテキスト。ここに挨拶文を入れます。サンプルテキスト。サンプルテキスト。サンプルテキスト。<br />
+                  ここに挨拶文を入れます。サンプルテキスト。サンプルテキスト。サンプルテキスト。ここに挨拶文を入れます。サンプルテキスト。
+                </p>
+              </div>
+
+              <div class="image-right flex-item">
+                <img src="../../images/about1.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="text-group flex-item">
+                <h3>サンプル見出し</h3>
+                <p>
+                  ここに挨拶文を入れます。サンプルテキスト。サンプルテキスト。サンプルテキスト。ここに挨拶文を入れます。サンプルテキスト。サンプルテキスト。サンプルテキスト。<br />
+                  ここに挨拶文を入れます。サンプルテキスト。サンプルテキスト。サンプルテキスト。ここに挨拶文を入れます。サンプルテキスト。
+                </p>
+                <p>
+                  ここに挨拶文を入れます。サンプルテキスト。サンプルテキスト。サンプルテキスト。ここに挨拶文を入れます。<br />
+                  ここに挨拶文を入れます。サンプルテキスト。サンプルテキスト。サンプルテキスト。
+                </p>
+              </div>
+
+              <div class="image-left flex-item">
+                <img src="../../images/about2.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer w3-include-html="../../html/footer.html"></footer>
+  </body>
+  <script src="../../scripts/index.js"></script>
+  <script>
+    AOS.init();
+    w3.includeHTML();
+  </script>
+</html>
