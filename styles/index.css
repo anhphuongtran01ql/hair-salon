@@ -133,3 +133,11 @@ main h3 {
     border-radius: 30px;
     margin: 20px 0;
 }
+
+.cursor {
+    cursor: pointer;
+}
+
+.modal-backdrop.show {
+    opacity: 0.8;
+}

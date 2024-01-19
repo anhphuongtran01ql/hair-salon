@@ -4,6 +4,7 @@
     align-items: center;
     padding-left: 25px;
     background-color: var(--red-color);
+    margin: 0;
 }
 
 #stylish-banner {
@@ -12,6 +13,14 @@
 
 #plan-banner {
     background: url(../images/bg_plan.jpg) no-repeat center center / cover;
+}
+
+#gallery-banner {
+    background: url(../images/bg_gallery.jpg) no-repeat center center / cover;
+}
+
+#about-banner {
+    background: url(../images/1.jpg) no-repeat center center / cover;
 }
 
 h2.banner {
