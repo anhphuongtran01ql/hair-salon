@@ -13,7 +13,7 @@
     width: calc(100% - 250px);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .plan-container {
         display: flex;
         flex-direction: column;
@@ -40,17 +40,17 @@
 }
 
 #plan-content dl dt {
-    width: calc(50% - 85px - 10px);
-    border-bottom: 1px solid var(--gray-color);
+    width: calc(50% - 105px - 10px);
+    border-bottom: 1px solid #ccc;
     text-align: left;
     padding: 10px;
 }
 
 #plan-content dl dd {
-    width: 85px;
+    width: 105px;
     margin-right: 10px;
     text-align: right;
-    border-bottom: 1px solid var(--gray-color);
+    border-bottom: 1px solid #ccc;
     padding: 10px;
 }
 
@@ -58,13 +58,13 @@
 #plan-content dl dd:nth-of-type(1),
 #plan-content dl dt:nth-of-type(2),
 #plan-content dl dd:nth-of-type(2) {
-    border-top: 1px solid var(--gray-color);
+    border-top: 1px solid #ccc;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
 
     #plan-content dl dt {
-        width: calc(100% - 85px);
+        width: calc(100% - 105px);
     }
 
     #plan-content dl dd {

@@ -1,3 +1,7 @@
+#stylish-introduction h3 {
+    margin-top: 0;
+}
+
 #stylish-introduction .list-item {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

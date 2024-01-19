@@ -1,4 +1,4 @@
-footer {
+#footer {
     background-color: var(--gray-color);
     padding-top: 50px;
 }
@@ -42,6 +42,7 @@ table.weather {
     width: 100%;
     text-align: center;
     border-collapse: collapse;
+    caption-side: top;
     border: 1px solid #fff;
 }
 

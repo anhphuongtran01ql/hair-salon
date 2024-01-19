@@ -30,6 +30,10 @@
     z-index: 3;
 }
 
+#top-banner .banner-item.item-empty {
+    z-index: -1;
+}
+
 #top-banner .item-image {
     background-color: #fff;
     padding: 10px;
