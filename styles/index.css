@@ -125,3 +125,19 @@ body {
     background: rgba(0, 0, 0, 0.2);
     border-radius: 50%;
 }
+
+main h3 {
+    font-size: 18px;
+    padding: 7px 32px;
+    background: var(--gray-color);
+    border-radius: 30px;
+    margin: 20px 0;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.modal-backdrop.show {
+    opacity: 0.8;
+}

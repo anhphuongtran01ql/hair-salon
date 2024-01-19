@@ -18,11 +18,8 @@ main h2 {
     border-radius: 30px;
 }
 
-main h3 {
-    font-size: 18px;
-    padding: 7px 32px;
-    background: var(--gray-color);
-    border-radius: 30px;
+#template h3 {
+    margin: 0;
 }
 
 main a {
