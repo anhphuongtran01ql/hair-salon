@@ -52,6 +52,18 @@ form {
     }
 }
 
+
+@media screen and (max-width: 435px) {
+
+    .table-contact th {
+        width: 30vw;
+    }
+
+    .table-contact td {
+        width: calc(100% - 30vw);
+    }
+}
+
 .table-contact td:has(textarea) {
     padding: 18px 60px 18px 0;
 }
@@ -78,6 +90,18 @@ form {
 
     .table-contact td textarea {
         width: calc(100% - 20px);
+    }
+}
+
+
+@media screen and (max-width: 435px) {
+    .table-contact td input {
+        width: calc(100% - 5px);
+
+    }
+
+    .table-contact td textarea {
+        width: calc(100% - 5px);
     }
 }
 
