@@ -51,6 +51,7 @@ table.weather {
     border-bottom: none;
     background-color: var(--dark-color);
     padding: 8px 16px;
+    text-align: center;
 }
 
 .weather tr:not(:last-child) {

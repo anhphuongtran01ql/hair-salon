@@ -44,7 +44,11 @@ a {
     color: #fff;
 }
 
-.underline:hover {
+a:hover {
+    color: #fff;
+}
+
+.red-hover:hover {
     color: var(--red-color);
 }
 
