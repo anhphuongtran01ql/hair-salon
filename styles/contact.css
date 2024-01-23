@@ -56,11 +56,11 @@ form {
 @media screen and (max-width: 435px) {
 
     .table-contact th {
-        width: 30vw;
+        width: 145px;
     }
 
     .table-contact td {
-        width: calc(100% - 30vw);
+        width: calc(100% - 145px);
     }
 }
 
@@ -70,11 +70,21 @@ form {
 
 .table-contact td input {
     width: 50%;
+    padding: 2px;
+}
+
+.table-contact td input:focus {
+    outline: 1px solid #fff;
 }
 
 .table-contact td textarea {
     width: 100%;
     display: block;
+    padding: 2px;
+}
+
+.table-contact td textarea:focus {
+    outline: 1px solid #fff;
 }
 
 @media screen and (max-width: 768px) {
@@ -105,6 +115,10 @@ form {
     }
 }
 
+#contact .btn-submit {
+    line-height: 1.1;
+}
+
 .btn-submit {
     padding: 3px 7px;
     border: 1px solid #ccc;
@@ -114,8 +128,8 @@ form {
 }
 
 .btn-submit:hover {
-    background-color: var(--red-color);
-    border: 1px solid var(--red-color);
+    opacity: 0.9;
+    color: #000;
 }
 
 /* --- confirm page css --- */

@@ -39,13 +39,13 @@ main p strong {
 }
 
 .notice-list td.title span.tag {
-    width: calc(50% - 13px);
+    width: calc(50% - 20px);
     text-align: center;
     vertical-align: middle;
     font-size: 13px;
     line-height: 1.8;
     border-radius: 2px;
-    margin-right: 20px;
+    margin: 0 20px;
 }
 
 span.tag.tag-1 {
