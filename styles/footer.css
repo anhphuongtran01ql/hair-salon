@@ -79,14 +79,14 @@ table.weather {
 }
 
 .right-group iframe {
-    height: 450px;
+    max-height: 450px;
+    height: 40vw;
     width: 100%;
 }
 
 @media screen and (max-width: 768px) {
     .right-group iframe {
         height: 60vw;
-        max-height: 450px;
     }
 }
 
@@ -110,12 +110,12 @@ table.weather {
     flex-direction: column;
 }
 
-#footer-menu ul li.title {
+#footer-menu ul li:first-child {
     font-weight: bold;
     padding-bottom: 5px;
 }
 
-#footer-menu ul li:not(.title) {
+#footer-menu ul li:not(:first-child) {
     font-size: 12.8px;
 }
 
