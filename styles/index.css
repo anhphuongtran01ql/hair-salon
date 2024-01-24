@@ -149,6 +149,7 @@ main h3 {
     background: var(--gray-color);
     border-radius: 30px;
     margin: 20px 0;
+    font-weight: 400;
 }
 
 .cursor {
